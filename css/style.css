@@ -10,12 +10,36 @@ h1 {
   color: red;
 }
 button {
-  padding: 5px;
+  padding: 2%;
+  box-shadow: 10% 10% 5px rgba(0, 0, 0, 0.5);
+  border: 2px solid rgb(255, 255, 255);
+  border-radius: 10px;
+  border: solid 2px black;
 }
-
 div {
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 10px;
+  margin: 20px 10px;
+}
+
+#countDown {
+  display: block;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin: 20px 10px;
+}
+#clockTime {
+  color: blue;
+  font-weight: bold;
+  margin: 20px 10px;
+}
+input[type="number"] {
+  padding: 2%;
+  width: 150px;
+  text-align: center;
+  border: 2px solid rgb(79, 83, 82);
+  border-radius: 10px;
 }
